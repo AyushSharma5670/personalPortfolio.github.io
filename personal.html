@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal-portfolio-website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/personal.css">
+</head>
+<body>
+    <nav class="navbar">
+        <p></p>
+        <p><a href="aboutme.html">About Me</a></p>
+        <p><a href="resume.pdf">Resume</a></p>
+        <p><a href="project.html">Project</a></p>
+        <p><a href="contact.html">Contact</a></p>
+    </nav>
+    <header class="one">
+        <div id="text" class="typing-container">Hello,<br> I am Ayush Sharma.</div>
+  <script>
+    const textElement = document.getElementById('text');
+    setInterval(() => {
+      textElement.classList.remove('typing-container');
+      void textElement.offsetWidth; // Force reflow (triggers restart)
+      textElement.classList.add('typing-container');
+    }, 10000); // 10 seconds
+  </script>
+  </header>
+  <div class="center">
+    <p>I’m Ayush Sharma, a dedicated Computer Science and Engineering student at Mahakal Institute of Technology and Management, Ujjain.</p>
+  </div>
+  <footer>
+  <p>&copy; 2025 Ayush Sharma. All rights reserved.</p>
+</footer>
+<footer >
+  <a href="https://github.com/AyushSharma5670" target="_blank"><i class="fab fa-github-f"></i></a>
+  <a href="https://github.com/yourusername" target="_blank">
+  <i class="fab fa-github"></i>
+</a>
+</footer>
+
+
+</body>
+</html>
