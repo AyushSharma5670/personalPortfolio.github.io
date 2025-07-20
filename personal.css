@@ -1,0 +1,108 @@
+body{
+        background-image: url("../back.jpg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    p{
+        margin: 0px;
+    }
+    .navbar{
+         position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 30px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgb(245, 243, 243);
+  font-size: xx-large;
+  font-family: times 'Times New Roman';
+  font-weight: bold;
+
+    }
+        .one{
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      font-family: 'Poppins', sans-serif;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    .typing-container {
+      color: transparent;
+      font-size: 2.5em;
+      font-weight: bold;
+      background: linear-gradient(90deg, #00fff0, #ff00c8);
+      -webkit-background-clip: text;
+      background-clip: text;
+      text-align: center;
+      text-shadow: 0 0 10px rgba(255, 0, 200, 0.4);
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 3px solid #00fff0;
+      width: 0;
+      animation: typing 4s steps(30, end) forwards, blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: #00fff0; }
+    }
+   body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  margin: 0;
+  background-color:white; /* Optional: dark background for white text */
+}
+
+.center {
+  color: white;
+  padding: 30px;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgb(249, 247, 247);
+  border-radius: 10px;
+  text-align: center; /* Optional: center text inside the box */
+}
+.center:hover{
+  transform: translateY(-8px);
+  background-color: black;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  font-weight: 200;
+  line-height: 1.6;
+  text-align: justify;
+  display: block; /* Don't use flex here unless needed */
+}
+footer {
+  position:sticky;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  position: fixed; /* or use 'absolute' */
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
